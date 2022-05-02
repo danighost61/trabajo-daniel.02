@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(37, 25, 65);
+}
+
+#menu-1{
+    margin: 150px auto;
+    width: 1000px;
+}
+
+.tablas{
+    margin: 150px auto;
+
+}
+
+table{
+    width: 100%;
+    background-color: rgba(41, 38, 38, 0.734);
+    text-align: left;
+    border-collapse: collapse;
+    color: white;
+}
+
+th, td{
+    font-family: miletra;
+    padding: 20px;
+}
+
+thead{
+    background-color: rgb(241, 196, 33);
+    border-bottom: solid 5px;
+}
+
+tr:nth-child(){
+    background-color: aqua;
+}
+
+tr:hover{
+    background-color: rgb(217, 167, 66);
+}   
+
+
+@font-face{
+    font-family: miletra;
+    src: url(/fuentes/Roboto-MediumItalic.ttf);
+}
+

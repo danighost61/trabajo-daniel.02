@@ -1,0 +1,104 @@
+body{
+    background-image: url(/imagenes/lighthouse-2516803_1920.jpg);
+    background-color: rgba(55, 52, 57, 0.841);
+    background-blend-mode: soft-light;
+}
+
+:root{
+    --primary:#b9b032e8;
+    --white-text:#ffffff;
+  
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: miletra;
+   
+}
+
+.texto1{
+    color: white;
+}
+
+
+/* Estilos de la seccion principal */
+
+main{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+main h1{
+    font-size: 1.7rem;
+    color: var(--black-text);
+    text-align: center;
+    margin: 1rem;
+}
+
+main p{
+    color: var(--black-text);
+    text-align: center;
+    margin: 1rem 0;
+}
+
+main form{
+    display: flex;
+    justify-content: center;
+}
+
+main form button{
+    margin: 0 .5rem;
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 1.1rem;
+}
+
+.primary-btn{
+    background-color: var(--primary);
+    color: var(--white-text);
+    border-style: none;
+}
+
+.outline-btn{
+    background-color: var(--white-text);
+    color: var(--primary);
+    border: solid .1rem var(--primary);
+}
+
+.primary-btn:hover{    
+    background-color: var(--white-text);
+    color: var(--primary);
+    border: solid .1rem var(--primary);
+    transition: all .3s;
+}
+
+.outline-btn:hover{
+    background-color: var(--primary);
+    color: var(--white-text);
+    border-style: none;
+    transition: all .3s;
+}
+
+main img{
+    height: 70vh;
+}
+
+footer{
+    background-color: var(--primary);
+    color: var(--white-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+@media(max-width:1020px){
+    
+}

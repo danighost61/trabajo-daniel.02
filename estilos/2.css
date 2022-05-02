@@ -1,0 +1,355 @@
+/*contenedores*/
+
+
+body{
+    background-color: black;
+}
+
+#banner{
+    margin: 50px;
+    padding: 0 50px;
+    background-image: url(/imagenes/background-1592030_1920.jpg);
+    background-color: rgba(51, 44, 55, 0.841);
+    background-blend-mode: soft-light;
+    height: 60vh;
+    background-size: cover;
+    
+}
+
+.contenido-banner{
+    position: relative;
+    color: rgb(249, 243, 243);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.boton-empezar{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(238, 236, 231);
+    padding: 10px 50px;
+    align-self: baseline;
+    font-family: miletra;
+        
+    
+    
+}
+
+
+/*contenedores1*/
+
+#banner1{
+    margin: 50px;
+    padding: 0 50px;
+    background-image: url(/imagenes/arte\ 1.jpg);
+    height: 45vh;
+    background-size: cover;
+    
+}
+
+.contenido-banner1{
+    position: relative;
+    color: rgb(249, 243, 243);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.boton-empezar1{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(238, 236, 231);
+    padding: 10px 50px;
+    align-self: baseline;
+    font-family: miletra;
+}
+
+
+/*contenedores2*/
+
+#banner2{
+    margin: 50px;
+    padding: 0 50px;
+    background-image: url(/imagenes/tigre.jpg);
+    background-color: rgba(55, 52, 57, 0.841);
+    background-blend-mode: soft-light;
+    height: 60vh;
+    background-size: cover;
+    
+}
+
+.contenido-banner2{
+    position: relative;
+    color: rgb(249, 243, 243);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.boton-empezar2{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(238, 236, 231);
+    padding: 10px 50px;
+    align-self: baseline;
+}
+
+
+/*contenedores3*/
+
+#banner3{
+    margin: 50px;
+    padding: 0 50px;
+    background-image: url(/imagenes/pintura.png);
+    background-color: rgba(55, 52, 57, 0.841);
+    background-blend-mode: soft-light;
+    height: 60vh;
+    background-size: cover;
+    
+}
+
+.contenido-banner3{
+    position: relative;
+    color: rgb(249, 243, 243);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.boton-empezar3{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(238, 236, 231);
+    padding: 10px 50px;
+    align-self: baseline;
+}
+
+
+/*contenedores4*/
+
+#banner4{
+    margin: 50px;
+    padding: 0 50px;
+    background-image: url(/imagenes/cartagena-3411059_1920.jpg);
+    background-color: rgba(55, 52, 57, 0.841);
+    background-blend-mode: soft-light;
+    height: 60vh;
+    background-size: cover;
+    
+}
+
+.contenido-banner4{
+    position: relative;
+    color: rgb(249, 243, 243);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.boton-empezar4{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(238, 236, 231);
+    padding: 10px 50px;
+    align-self: baseline;
+}
+
+
+
+
+
+
+
+@media screen and (min-width:320px) and (max-width:450px){
+
+    /*banner*/
+
+    #banner{
+        margin: 20px;
+        padding: 0 50px;
+        background-image: url(/imagenes/background-1592030_1920.jpg);
+        background-color: rgba(55, 52, 57, 0.841);
+        background-blend-mode: soft-light;
+        height: 40vh;
+        background-size: cover;
+        
+    }
+    
+    .contenido-banner{
+        position: relative;
+        color: rgb(249, 243, 243);
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    
+    .boton-empezar{
+        margin-top: 20px;
+        text-decoration: none;
+        color: white;
+        border: 1px solid rgb(238, 236, 231);
+        padding: 10px 50px;
+        align-self: baseline;
+    }
+
+
+    /*contenedores1*/
+
+    #banner1{
+    margin: 20px;
+    padding: 0 50px;
+    background-image: url(/imagenes/arte\ 1.jpg);
+    height: 40vh;
+    background-size: cover;
+    
+}
+
+    .contenido-banner1{
+    position: relative;
+    color: rgb(249, 243, 243);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.boton-empezar1{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(238, 236, 231);
+    padding: 10px 50px;
+    align-self: baseline;
+}
+
+    
+
+   /*banner2*/
+
+   #banner2{
+    margin: 20px;
+    padding: 0 50px;
+    background-image: url(/imagenes/tigre.jpg);
+    background-color: rgba(55, 52, 57, 0.841);
+    background-blend-mode: soft-light;
+    height: 40vh;
+    background-size: cover;
+    
+}
+
+.contenido-banner2{
+    position: relative;
+    color: rgb(249, 243, 243);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.boton-empezar2{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(238, 236, 231);
+    padding: 10px 50px;
+    align-self: baseline;
+}
+
+
+  /*contenedores3*/
+
+    #banner3{
+    margin: 20px;
+    padding: 0 50px;
+    background-image: url(/imagenes/pintura.png);
+    background-color: rgba(55, 52, 57, 0.841);
+    background-blend-mode: soft-light;
+    height: 40vh;
+    background-size: cover;
+    
+}
+
+.contenido-banner3{
+    position: relative;
+    color: rgb(249, 243, 243);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.boton-empezar3{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(238, 236, 231);
+    padding: 10px 50px;
+    align-self: baseline;
+}
+
+
+/*contenedores4*/
+
+#banner4{
+    margin: 20px;
+    padding: 0 50px;
+    background-image: url(/imagenes/cartagena-3411059_1920.jpg);
+    background-color: rgba(55, 52, 57, 0.841);
+    background-blend-mode: soft-light;
+    height: 40vh;
+    background-size: cover;
+    
+}
+
+.contenido-banner4{
+    position: relative;
+    color: rgb(249, 243, 243);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.boton-empezar4{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(238, 236, 231);
+    padding: 10px 50px;
+    align-self: baseline;
+}
+
+
+
+
+
+
+
+
+    
+}
+
+
+
