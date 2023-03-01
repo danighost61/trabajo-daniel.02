@@ -1,0 +1,858 @@
+.anavrin{
+    width: 150px;
+    
+}
+
+/*tipografias*/
+@font-face{
+    font-family: miletra;
+    src: url(/fuentes/Roboto-MediumItalic.ttf);
+}
+
+
+
+/*{
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+}*/
+
+/*-------------tipografia general-----------*/
+h1{
+   font-family: miletra; 
+}
+
+
+/*-------------tipografia general-----------*/
+
+/*-------------tipografia especifica-----------*/
+.titulo1{
+   
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 80px;
+
+}
+
+.titulo2{
+
+    color: white;
+    text-align: center;
+    margin-top: 190px;
+
+}
+
+
+.titulo6{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 80px;
+}
+
+.titulo7{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 80px;
+}
+
+
+.texto3{
+    font-size: 19px;
+}
+
+.texto4{
+    font-size: 19px;
+}
+
+.texto5{
+    font-size: 19px;
+}
+
+
+.texto6{
+    font-size: 19px;
+}
+
+
+.texto7{
+    font-size: 19px;
+}
+
+
+.texto8{
+    font-size: 19px;
+}
+
+
+.texto{
+    font-size: 19px;
+}
+
+.texto10{
+    font-size: 19px;
+}
+
+.texto11{
+    font-size: 19px;
+}
+/*-------------tipografia especifica-----------*/
+
+
+/*contenedor madre*/
+
+
+.cont{
+    
+  
+    max-width: 100%;
+    height: 1000px;
+    display: grid;
+    margin: 10px;
+    margin-top: 10px;
+    grid-template-columns:repeat(11, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    /*margenes generales*/
+    row-gap: 20px;
+    column-gap: 20px;
+    /*margenes de contenedores*/
+    margin: 3%;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+.element1{
+    
+    background-image: url(/trabajo-daniel.02/imagenes/imagen1.jpg);
+    background-color: rgba(34, 24, 43, 0.841);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    /*inicio y final de columna*/
+    grid-column: 1/12;
+
+    /*inicio y final de fila*/
+    grid-row:1/5 ;
+   
+}
+
+.element2{
+    
+    background-image: url(/trabajo-daniel.02/imagenes/imagen2.jpg);
+    background-color: rgba(42, 26, 54, 0.841);
+    background-blend-mode: soft-light;
+    background-size: cover; 
+    border-radius: 50px;
+    /*inicio y final de columna*/
+    grid-column: 1/7;
+
+    /*inicio y final de fila*/
+    grid-row: 5/12 ;
+   
+}
+
+
+
+.element3{
+    
+   
+    /*inicio y final de columna*/
+    grid-column: 7/12;
+
+    /*inicio y final de fila*/
+    grid-row: 5/12 ;
+   
+}
+
+
+.element4{
+    
+   
+    /*inicio y final de columna*/
+    grid-column: 1/7;
+
+    /*inicio y final de fila*/
+    grid-row: 12/16 ;
+   
+}
+
+
+.element5{
+    
+
+    /*inicio y final de columna*/
+    grid-column: 7/12;
+
+    /*inicio y final de fila*/
+    grid-row: 12/16 ;
+   
+}
+
+/*--------------------- contenedor 2 -----------*/
+
+.cont2{
+
+    max-width: 100%;
+    height: 1000px;
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns:repeat(12, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    /*margenes generales*/
+    row-gap: 20px;
+    column-gap: 20px;
+    /*margenes de contenedores*/
+    margin: 3%;
+    padding: 0px;
+    box-sizing: border-box;
+ 
+
+}
+
+.element6{
+    
+    background-image: url(/trabajo-daniel.02/imagenes/imagen3.jpg);
+    background-color: rgba(83, 56, 38, 0.841);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    border-radius: 20px;
+    /*inicio y final de columna*/
+    grid-column: 1/7;
+    /*inicio y final de fila*/
+    grid-row: 1/6 ;
+   
+}
+
+
+
+.element7{
+    
+    background-image: url(/trabajo-daniel.02/imagenes/imagen4.jpg);
+    background-color: rgba(62, 38, 83, 0.841);
+    background-blend-mode: soft-light;
+    border-radius: 20px;
+    background-size: cover;
+    /*inicio y final de columna*/
+    grid-column: 7/13;
+    /*inicio y final de fila*/
+    grid-row: 1/6 ;
+   
+}
+
+
+
+.element8{
+    
+  
+    /*inicio y final de columna*/
+    grid-column: 1/7;
+
+    /*inicio y final de fila*/
+    grid-row: 6/11 ;
+   
+}
+
+
+
+.element9{
+    
+  
+    /*inicio y final de columna*/
+    grid-column: 7/13;
+
+    /*inicio y final de fila*/
+    grid-row: 6/11 ;
+   
+}
+
+
+.element10{
+    
+   
+    /*inicio y final de columna*/
+    grid-column: 1/7;
+
+    /*inicio y final de fila*/
+    grid-row: 11/14 ;
+   
+}
+
+
+.element11{
+    
+    
+    /*inicio y final de columna*/
+    grid-column: 7/14;
+
+    /*inicio y final de fila*/
+    grid-row: 11/14 ;
+   
+}
+
+/*---contenedor 3---*/
+
+.cont3{
+
+    max-width: 100%;
+    height: 1000px;
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns:repeat(12, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    /*margenes generales*/
+    row-gap: 20px;
+    column-gap: 20px;
+    /*margenes de contenedores*/
+    margin: 3%;
+    padding: 0px;
+    box-sizing: border-box;
+ 
+
+}
+
+
+.element12{
+    
+    background-image: url(/trabajo-daniel.02/imagenes/panaderia\ ....jpg);
+    background-color: rgba(83, 56, 38, 0.841);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    border-radius: 20px;
+    /*inicio y final de columna*/
+    grid-column: 1/7;
+    /*inicio y final de fila*/
+    grid-row: 1/6 ;
+   
+}
+
+.element13{
+    
+    background-image: url(/trabajo-daniel.02/imagenes/pepinos...jpg);
+    background-color: rgba(62, 38, 83, 0.841);
+    background-blend-mode: soft-light;
+    border-radius: 20px;
+    background-size: cover;
+    /*inicio y final de columna*/
+    grid-column: 7/13;
+    /*inicio y final de fila*/
+    grid-row: 1/6 ;
+   
+}
+
+
+.element14{
+    
+  
+    /*inicio y final de columna*/
+    grid-column: 1/7;
+
+    /*inicio y final de fila*/
+    grid-row: 6/11 ;
+   
+}
+
+
+.element15{
+    
+  
+    /*inicio y final de columna*/
+    grid-column: 7/13;
+
+    /*inicio y final de fila*/
+    grid-row: 6/11 ;
+   
+}
+
+
+.element16{
+    
+   
+    /*inicio y final de columna*/
+    grid-column: 1/7;
+
+    /*inicio y final de fila*/
+    grid-row: 11/14 ;
+   
+}
+
+
+.element17{
+    
+    
+    /*inicio y final de columna*/
+    grid-column: 7/14;
+
+    /*inicio y final de fila*/
+    grid-row: 11/14 ;
+   
+}
+
+
+/*texto*/
+
+
+
+
+
+
+
+/*responsive*/
+@media screen and (min-width:320px) and (max-width:700px){
+
+
+/*-------------tipografia especifica-----------*/
+.titulo1{
+   
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+
+}
+
+.titulo2{
+
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+
+.titulo3{
+
+   
+    text-align: center;
+   
+}
+
+
+.titulo4{
+
+   
+    text-align: center;
+    
+
+}
+
+
+.titulo5{
+
+   
+    text-align: center;
+    
+
+}
+
+
+
+.texto3{
+    font-size: 12px;
+}
+
+.texto4{
+    font-size: 12px;
+}
+
+.texto5{
+    font-size: 12px;
+}
+
+
+
+
+
+/*-------------tipografia especifica-----------*/
+
+
+
+    .container{
+    
+       
+        max-width: 1800px;
+        height: 1000px;
+        display: grid;
+        margin-top: 5%;
+        grid-template-columns:repeat(11, 1fr);
+        grid-template-rows: repeat(33, 1fr);
+        row-gap: 20px;
+        column-gap: 20px;
+
+   
+        
+    }
+    
+    
+    .element1{
+        
+        background-image: url(/imagenes/imagen1.jpg);
+        background-color: rgba(34, 24, 43, 0.841);
+        background-blend-mode: soft-light;
+        background-size: cover;
+        /*inicio y final de columna*/
+        grid-column: 1/15;
+    
+        /*inicio y final de fila*/
+        grid-row:1/4 ;
+       
+    }
+    
+    .element2{
+        
+        width: 100%;
+        background-image: url(/imagenes/imagen2.jpg);
+        background-color: rgba(42, 26, 54, 0.841);
+        background-blend-mode: soft-light;
+        background-size: cover; 
+        border-radius: 0px;
+        /*inicio y final de columna*/
+        grid-column: 1/15;
+        /*inicio y final de fila*/
+        grid-row: 4/8 ;
+       
+    }
+    
+    
+    
+    .element3{
+        
+        
+       
+        /*inicio y final de columna*/
+        grid-column: 1/15;
+    
+        /*inicio y final de fila*/
+        grid-row: 8/16 ;
+       
+    }
+
+    .element4{
+        
+        
+        
+        /*inicio y final de columna*/
+        grid-column: 1/15;
+    
+        /*inicio y final de fila*/
+        grid-row: 16/24 ;
+       
+    }
+
+
+    .element5{
+        
+        
+        /*inicio y final de columna*/
+        grid-column: 1/15;
+    
+        /*inicio y final de fila*/
+        grid-row: 25/34 ;
+       
+    }
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:700px){
+
+
+    /*-------------tipografia especifica-----------*/
+    .texto8{
+        font-size: 12px;
+    }
+
+    .texto9{
+        font-size: 12px;
+    }
+
+
+    .texto10{
+        font-size: 12px;
+    }
+    
+    .texto11{
+        font-size: 12px;
+    }
+
+    .titulo6{
+        color: white;
+        text-align: center;
+        margin-top: 9px;
+        font-size: 50px;
+    }
+    
+    .titulo7{
+        color: white;
+        text-align: center;
+        margin-top: 30px;
+        font-size: 50px;
+    }
+    /*-------------tipografia especifica-----------*/
+    
+    .cont2{
+        max-width: 100%;
+        height: 1000px;
+        display: grid;
+        margin-top: 30px;
+        grid-template-columns:repeat(13, 1fr);
+        grid-template-rows: repeat(41, 1fr);
+        /*margenes generales*/
+        row-gap: 20px;
+        column-gap: 20px;
+        /*margenes de contenedores*/
+        margin: 3%;
+        padding: 0px;
+        box-sizing: border-box;
+     
+    
+    }
+    
+    .element6{
+        
+        background-image: url(/imagenes/imagen3.jpg);
+        background-size: cover;
+        border-radius: 0px;
+        /*inicio y final de columna*/
+        grid-column: 1/15;
+        /*inicio y final de fila*/
+        grid-row: 1/5 ;
+       
+    }
+    
+    
+    
+    .element7{
+        
+        background-image: url(/imagenes/imagen4.jpg);
+        border-radius: 0px;
+        background-size: cover;
+        /*inicio y final de columna*/
+        grid-column: 1/15;
+        /*inicio y final de fila*/
+        grid-row: 14/19 ;
+       
+    }
+    
+    
+    
+    .element8{
+        
+    
+        /*inicio y final de columna*/
+        grid-column: 1/15;
+    
+        /*inicio y final de fila*/
+        grid-row: 5/14 ;
+       
+    }
+    
+    
+    
+    .element9{
+        
+    
+        /*inicio y final de columna*/
+        grid-column: 1/15;
+    
+        /*inicio y final de fila*/
+        grid-row: 19/26 ;
+       
+    }
+    
+    
+    .element10{
+        
+        
+        /*inicio y final de columna*/
+        grid-column: 1/15;
+    
+        /*inicio y final de fila*/
+        grid-row: 27/34 ;
+       
+    }
+    
+    
+    .element11{
+        
+       
+        /*inicio y final de columna*/
+        grid-column: 1/15;
+    
+        /*inicio y final de fila*/
+        grid-row: 35/45;
+       
+    }
+
+
+
+    .anavrin{
+        width: 90px;
+        
+    }
+    
+    
+    
+    
+        
+        
+    
+}
+
+
+@media screen and (min-width:320px) and (max-width:700px){
+
+    .texto8{
+        font-size: 12px;
+    }
+
+    .texto9{
+        font-size: 12px;
+    }
+
+
+    .texto10{
+        font-size: 12px;
+    }
+    
+    .texto11{
+        font-size: 12px;
+    }
+
+    .titulo6{
+        color: white;
+        text-align: center;
+        margin-top: 9px;
+        font-size: 50px;
+    }
+    
+    .titulo7{
+        color: white;
+        text-align: center;
+        margin-top: 30px;
+        font-size: 50px;
+    }
+    /*-------------tipografia especifica-----------*/
+    
+    .cont3{
+        max-width: 100%;
+        height: 1000px;
+        display: grid;
+        margin-top: 30px;
+        grid-template-columns:repeat(13, 1fr);
+        grid-template-rows: repeat(41, 1fr);
+        /*margenes generales*/
+        row-gap: 20px;
+        column-gap: 20px;
+        /*margenes de contenedores*/
+        margin: 3%;
+        padding: 0px;
+        box-sizing: border-box;
+     
+    
+    }
+    
+    .element12{
+        
+        background-image: url(/imagenes/panaderia\ ....jpg);
+        background-size: cover;
+        border-radius: 0px;
+        /*inicio y final de columna*/
+        grid-column: 1/15;
+        /*inicio y final de fila*/
+        grid-row: 1/5 ;
+       
+    }
+    
+    
+    
+    .element13{
+        
+        background-image: url(/imagenes/pepinos...jpg);
+        border-radius: 0px;
+        background-size: cover;
+        /*inicio y final de columna*/
+        grid-column: 1/15;
+        /*inicio y final de fila*/
+        grid-row: 14/19 ;
+       
+    }
+    
+    
+    
+    .element14{
+        
+    
+        /*inicio y final de columna*/
+        grid-column: 1/15;
+    
+        /*inicio y final de fila*/
+        grid-row: 5/14 ;
+       
+    }
+    
+    
+    
+    .element15{
+        
+    
+        /*inicio y final de columna*/
+        grid-column: 1/15;
+    
+        /*inicio y final de fila*/
+        grid-row: 19/26 ;
+       
+    }
+    
+    
+    .element16{
+        
+        
+        /*inicio y final de columna*/
+        grid-column: 1/15;
+    
+        /*inicio y final de fila*/
+        grid-row: 27/34 ;
+       
+    }
+    
+    
+    .element17{
+        
+       
+        /*inicio y final de columna*/
+        grid-column: 1/15;
+    
+        /*inicio y final de fila*/
+        grid-row: 35/45;
+       
+    }
+}
+
+
+
+/*logos footer*/
+.instagram{
+    
+
+    height: 15px;
+}
+.logo{
+
+    width: 150px;
+
+}
